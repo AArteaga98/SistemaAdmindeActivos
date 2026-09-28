@@ -1,0 +1,28 @@
+SEED USERS:
+
+"Administrador"
+{
+  "userName": "admin",
+  "password": "AdminTemporal2026!"
+}
+
+
+"Operator": 
+{
+      "UserName": "operador",
+      "Password": "OperadorTemporal2026!"
+}
+
+"Administrator": 
+{
+    "UserName": "adminInv",
+    "Password": "adminfalse"
+}
+
+  "Operator": 
+{
+    "UserName": "operador2",
+    "Password": "operador2"
+}
+
+
