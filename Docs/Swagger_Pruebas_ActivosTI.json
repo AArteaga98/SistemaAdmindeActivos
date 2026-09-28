@@ -1,0 +1,435 @@
+{
+  "instructions": {
+    "order": "Ejecutar los casos siguiendo el campo order cuando dependan de IDs creados anteriormente.",
+    "authorization": "Después del login, usar accessToken en Swagger Authorize. Pegar únicamente el token.",
+    "placeholders": "Sustituir {{supplierId}}, {{employeeMariaId}}, {{employeeCarlosId}} y {{assetId}} por los valores reales devueltos. Cuando el placeholder aparece entre comillas en un campo numérico, reemplazar el valor completo por el número sin comillas; ejemplo: \"supplierId\": 1.",
+    "dateFormat": "yyyy-MM-dd",
+    "warning": "No ejecutar las pruebas destructivas sobre datos reales o producción."
+  },
+  "testCases": [
+    {
+      "order": 1,
+      "name": "Login administrador",
+      "method": "POST",
+      "endpoint": "/api/auth/login",
+      "body": {
+        "userName": "admin",
+        "password": "REEMPLAZAR_CON_PASSWORD_ADMIN"
+      },
+      "expectedStatus": 200
+    },
+    {
+      "order": 2,
+      "name": "Login inválido",
+      "method": "POST",
+      "endpoint": "/api/auth/login",
+      "body": {
+        "userName": "admin",
+        "password": "password-incorrecto"
+      },
+      "expectedStatus": 401
+    },
+    {
+      "order": 3,
+      "name": "Crear proveedor completo",
+      "method": "POST",
+      "endpoint": "/api/suppliers",
+      "body": {
+        "name": "Tecnología Integral SA",
+        "contactEmail": "contacto@tecnologiaintegral.com",
+        "purchase": true,
+        "maintenance": true,
+        "rental": true
+      },
+      "expectedStatus": 201,
+      "saveResponseField": "id as supplierId"
+    },
+    {
+      "order": 4,
+      "name": "Proveedor sin servicios",
+      "method": "POST",
+      "endpoint": "/api/suppliers",
+      "body": {
+        "name": "Proveedor sin servicios",
+        "contactEmail": "contacto@proveedor.com",
+        "purchase": false,
+        "maintenance": false,
+        "rental": false
+      },
+      "expectedStatus": 400
+    },
+    {
+      "order": 5,
+      "name": "Crear colaboradora María",
+      "method": "POST",
+      "endpoint": "/api/employees",
+      "requiredRole": "Administrador",
+      "body": {
+        "employeeNumber": "EMP-001",
+        "fullName": "María López",
+        "email": "maria.lopez@empresa.com"
+      },
+      "expectedStatus": 201,
+      "saveResponseField": "id as employeeMariaId"
+    },
+    {
+      "order": 6,
+      "name": "Crear colaborador Carlos",
+      "method": "POST",
+      "endpoint": "/api/employees",
+      "requiredRole": "Administrador",
+      "body": {
+        "employeeNumber": "EMP-002",
+        "fullName": "Carlos Hernández",
+        "email": "carlos.hernandez@empresa.com"
+      },
+      "expectedStatus": 201,
+      "saveResponseField": "id as employeeCarlosId"
+    },
+    {
+      "order": 7,
+      "name": "Colaborador duplicado",
+      "method": "POST",
+      "endpoint": "/api/employees",
+      "requiredRole": "Administrador",
+      "body": {
+        "employeeNumber": "EMP-001",
+        "fullName": "Otro nombre",
+        "email": "otro@empresa.com"
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 8,
+      "name": "Crear activo propio",
+      "method": "POST",
+      "endpoint": "/api/assets",
+      "body": {
+        "assetCode": "TI-LAP-0001",
+        "serialNumber": "DELL-SN-0001",
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude 5450",
+        "ownershipType": "Propio",
+        "supplierId": "{{supplierId}}",
+        "currentLocation": "Oficina principal",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "observations": "Alta inicial para pruebas de asignación."
+      },
+      "expectedStatus": 201,
+      "saveResponseField": "id as assetId"
+    },
+    {
+      "order": 9,
+      "name": "Crear activo arrendado",
+      "method": "POST",
+      "endpoint": "/api/assets",
+      "body": {
+        "assetCode": "TI-LAP-0002",
+        "serialNumber": "LENOVO-SN-0002",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "model": "ThinkPad T14",
+        "ownershipType": "Arrendado",
+        "supplierId": "{{supplierId}}",
+        "currentLocation": "Sucursal norte",
+        "purchaseDate": null,
+        "rentalEndDate": "2027-09-30",
+        "observations": "Equipo arrendado para pruebas."
+      },
+      "expectedStatus": 201
+    },
+    {
+      "order": 10,
+      "name": "Arrendado con fecha de compra inválida",
+      "method": "POST",
+      "endpoint": "/api/assets",
+      "body": {
+        "assetCode": "TI-LAP-INVALID-01",
+        "serialNumber": "INVALID-SN-01",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "model": "ThinkPad",
+        "ownershipType": "Arrendado",
+        "supplierId": "{{supplierId}}",
+        "currentLocation": "Sucursal norte",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": "2027-09-30",
+        "observations": "Debe fallar por fecha de compra."
+      },
+      "expectedStatus": 400
+    },
+    {
+      "order": 11,
+      "name": "Arrendado sin proveedor",
+      "method": "POST",
+      "endpoint": "/api/assets",
+      "body": {
+        "assetCode": "TI-LAP-INVALID-02",
+        "serialNumber": "INVALID-SN-02",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "model": "ThinkPad",
+        "ownershipType": "Arrendado",
+        "supplierId": null,
+        "currentLocation": "Sucursal norte",
+        "purchaseDate": null,
+        "rentalEndDate": "2027-09-30",
+        "observations": "Debe fallar por proveedor."
+      },
+      "expectedStatus": 400
+    },
+    {
+      "order": 12,
+      "name": "Código de activo duplicado",
+      "method": "POST",
+      "endpoint": "/api/assets",
+      "body": {
+        "assetCode": "TI-LAP-0001",
+        "serialNumber": "OTRO-SERIAL",
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude",
+        "ownershipType": "Propio",
+        "supplierId": null,
+        "currentLocation": "Oficina",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "observations": "Debe fallar por código duplicado."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 13,
+      "name": "Buscar y paginar activos",
+      "method": "GET",
+      "endpoint": "/api/assets?search=DELL&status=Disponible&category=Laptop&page=1&pageSize=20",
+      "body": null,
+      "expectedStatus": 200
+    },
+    {
+      "order": 14,
+      "name": "Historial inicial",
+      "method": "GET",
+      "endpoint": "/api/assets/{{assetId}}/history",
+      "body": null,
+      "expectedStatus": 200,
+      "expectedData": "Movimiento Alta"
+    },
+    {
+      "order": 15,
+      "name": "Asignar activo a María",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/assignments",
+      "body": {
+        "employeeId": "{{employeeMariaId}}",
+        "observations": "Laptop entregada con cargador y mochila."
+      },
+      "expectedStatus": 201
+    },
+    {
+      "order": 16,
+      "name": "Intentar doble asignación a Carlos",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/assignments",
+      "body": {
+        "employeeId": "{{employeeCarlosId}}",
+        "observations": "Intento de asignación duplicada."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 17,
+      "name": "Intentar mantenimiento con asignación activa",
+      "method": "PUT",
+      "endpoint": "/api/assets/{{assetId}}",
+      "body": {
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude 5450",
+        "ownershipType": "Propio",
+        "supplierId": "{{supplierId}}",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "currentLocation": "Taller de soporte",
+        "status": "Mantenimiento",
+        "observations": "Debe fallar porque continúa asignado."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 18,
+      "name": "Devolver activo",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/return",
+      "body": {
+        "returnCondition": "Buen estado",
+        "observations": "Equipo recibido con cargador y mochila."
+      },
+      "expectedStatus": 200
+    },
+    {
+      "order": 19,
+      "name": "Segunda devolución inválida",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/return",
+      "body": {
+        "returnCondition": "Buen estado",
+        "observations": "Segundo intento de devolución."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 20,
+      "name": "Enviar a mantenimiento",
+      "method": "PUT",
+      "endpoint": "/api/assets/{{assetId}}",
+      "body": {
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude 5450",
+        "ownershipType": "Propio",
+        "supplierId": "{{supplierId}}",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "currentLocation": "Taller de soporte",
+        "status": "Mantenimiento",
+        "observations": "Mantenimiento preventivo."
+      },
+      "expectedStatus": 204
+    },
+    {
+      "order": 21,
+      "name": "Asignación durante mantenimiento inválida",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/assignments",
+      "body": {
+        "employeeId": "{{employeeCarlosId}}",
+        "observations": "Debe fallar por estado Mantenimiento."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 22,
+      "name": "Regresar a Disponible",
+      "method": "PUT",
+      "endpoint": "/api/assets/{{assetId}}",
+      "body": {
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude 5450",
+        "ownershipType": "Propio",
+        "supplierId": "{{supplierId}}",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "currentLocation": "Almacén TI",
+        "status": "Disponible",
+        "observations": "Mantenimiento concluido."
+      },
+      "expectedStatus": 204
+    },
+    {
+      "order": 23,
+      "name": "Asignar activo a Carlos",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/assignments",
+      "body": {
+        "employeeId": "{{employeeCarlosId}}",
+        "observations": "Reasignado después de mantenimiento."
+      },
+      "expectedStatus": 201
+    },
+    {
+      "order": 24,
+      "name": "Devolver antes de retiro",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/return",
+      "body": {
+        "returnCondition": "Desgaste normal",
+        "observations": "Devuelto antes de retirar."
+      },
+      "expectedStatus": 200
+    },
+    {
+      "order": 25,
+      "name": "Retirar activo",
+      "method": "PUT",
+      "endpoint": "/api/assets/{{assetId}}",
+      "body": {
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude 5450",
+        "ownershipType": "Propio",
+        "supplierId": "{{supplierId}}",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "currentLocation": "Almacén de bajas",
+        "status": "Retirado",
+        "observations": "Activo retirado definitivamente."
+      },
+      "expectedStatus": 204
+    },
+    {
+      "order": 26,
+      "name": "Asignar activo retirado inválido",
+      "method": "POST",
+      "endpoint": "/api/assets/{{assetId}}/assignments",
+      "body": {
+        "employeeId": "{{employeeMariaId}}",
+        "observations": "Debe fallar porque está Retirado."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 27,
+      "name": "Reactivar retirado inválido",
+      "method": "PUT",
+      "endpoint": "/api/assets/{{assetId}}",
+      "body": {
+        "category": "Laptop",
+        "brand": "Dell",
+        "model": "Latitude 5450",
+        "ownershipType": "Propio",
+        "supplierId": "{{supplierId}}",
+        "purchaseDate": "2026-09-20",
+        "rentalEndDate": null,
+        "currentLocation": "Almacén TI",
+        "status": "Disponible",
+        "observations": "Debe fallar porque el retiro es definitivo."
+      },
+      "expectedStatus": 409
+    },
+    {
+      "order": 28,
+      "name": "Consultar historial final",
+      "method": "GET",
+      "endpoint": "/api/assets/{{assetId}}/history",
+      "body": null,
+      "expectedStatus": 200,
+      "expectedData": "Alta, asignaciones, devoluciones, cambios de estado y ubicación"
+    },
+    {
+      "order": 29,
+      "name": "Consulta sin token",
+      "method": "GET",
+      "endpoint": "/api/assets?page=1&pageSize=20",
+      "body": null,
+      "authorization": "none",
+      "expectedStatus": 401
+    },
+    {
+      "order": 30,
+      "name": "Operador intenta registrar colaborador",
+      "method": "POST",
+      "endpoint": "/api/employees",
+      "requiredRole": "Operador",
+      "body": {
+        "employeeNumber": "EMP-OPERADOR-INVALID",
+        "fullName": "Prueba sin permiso",
+        "email": "sin.permiso@empresa.com"
+      },
+      "expectedStatus": 403
+    }
+  ]
+}
