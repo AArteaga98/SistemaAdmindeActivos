@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ActivosTi.Api/ActivosTi.Api.csproj" />
+  <Project Path="ActivosTi.Tests/ActivosTi.Tests.csproj" />
+  <Project Path="ActivosTi.Web/ActivosTi.Web.csproj" />
+</Solution>

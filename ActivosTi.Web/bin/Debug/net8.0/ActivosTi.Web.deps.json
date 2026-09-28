@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ActivosTi.Web/1.0.0": {
+        "runtime": {
+          "ActivosTi.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ActivosTi.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

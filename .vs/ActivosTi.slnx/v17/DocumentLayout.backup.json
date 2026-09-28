@@ -1,0 +1,529 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jorge\\AppData\\Roaming\\Microsoft\\UserSecrets\\14793519-88f3-4482-81ec-06610e9cf66e\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\errors\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\errors\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\data\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\data\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\authentication\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\authentication\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\authentication\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\data\\assetoperationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\data\\assetoperationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\updateassetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\updateassetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\data\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\data\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4981A2E4-759D-1E0B-7F31-5A20570FD1D9}|ActivosTi.Tests\\ActivosTi.Tests.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.tests\\assetconcurrencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4981A2E4-759D-1E0B-7F31-5A20570FD1D9}|ActivosTi.Tests\\ActivosTi.Tests.csproj|solutionrelative:activosti.tests\\assetconcurrencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\authentication\\developmentuserseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\authentication\\developmentuserseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\createassetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\createassetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\createsupplierresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\createsupplierresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\createassetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\createassetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\assignassetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\assignassetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\returnassetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\returnassetresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\assetmovementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\assetmovementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\assetquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\assetquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\assetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\data\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\data\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\createsupplierrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\createsupplierrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|d:\\documents\\proyectosnet\\pruebadesarrolloquom\\activosti\\activosti.api\\contracts\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76EE9A8-C180-13B8-70D7-7D3F0FD198DE}|ActivosTi.Api\\ActivosTi.Api.csproj|solutionrelative:activosti.api\\contracts\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Program.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Program.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Program.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAAANoAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T07:12:16.621Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\jorge\\AppData\\Roaming\\Microsoft\\UserSecrets\\14793519-88f3-4482-81ec-06610e9cf66e\\secrets.json",
+              "ToolTip": "C:\\Users\\jorge\\AppData\\Roaming\\Microsoft\\UserSecrets\\14793519-88f3-4482-81ec-06610e9cf66e\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-26T07:23:19.91Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jwt.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\Jwt.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Authentication\\Jwt.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\Jwt.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Authentication\\Jwt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T07:21:07.554Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\LoginResponse.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\LoginResponse.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T07:36:45.872Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Authentication\\JwtTokenService.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\JwtTokenService.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Authentication\\JwtTokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T07:51:00.64Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Authentication\\AuthenticationService.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\AuthenticationService.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Authentication\\AuthenticationService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIA/wCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:05:56.415Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AssetConcurrencyTests.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Tests\\AssetConcurrencyTests.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Tests\\AssetConcurrencyTests.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Tests\\AssetConcurrencyTests.cs",
+              "RelativeToolTip": "ActivosTi.Tests\\AssetConcurrencyTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwCoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T20:50:23.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssetOperationsRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\AssetOperationsRepository.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Data\\AssetOperationsRepository.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\AssetOperationsRepository.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Data\\AssetOperationsRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgv/QAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:13:37.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AssetMovementDto.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssetMovementDto.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\AssetMovementDto.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssetMovementDto.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\AssetMovementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:12:29.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReturnAssetResponse.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\ReturnAssetResponse.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\ReturnAssetResponse.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\ReturnAssetResponse.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\ReturnAssetResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:09:07.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignAssetRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssignAssetRequest.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\AssignAssetRequest.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssignAssetRequest.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\AssignAssetRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:02:10.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AssetsController.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\AssetsController.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Controllers\\AssetsController.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\AssetsController.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Controllers\\AssetsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:35:01.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssetRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\AssetRepository.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Data\\AssetRepository.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\AssetRepository.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Data\\AssetRepository.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAtwC4BAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:30:08.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:28:54.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateAssetRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\UpdateAssetRequest.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\UpdateAssetRequest.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\UpdateAssetRequest.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\UpdateAssetRequest.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv18AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:27:19.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\PagedResult.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\PagedResult.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\PagedResult.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:26:51.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AssetQuery.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssetQuery.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\AssetQuery.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssetQuery.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\AssetQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:22:18.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateAssetResponse.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateAssetResponse.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\CreateAssetResponse.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateAssetResponse.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\CreateAssetResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:21:41.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateAssetRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateAssetRequest.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\CreateAssetRequest.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateAssetRequest.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\CreateAssetRequest.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAADwv3UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:14:03.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssetDto.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssetDto.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\AssetDto.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\AssetDto.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\AssetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:13:25.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:31:14.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Data\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\EmployeeRepository.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Data\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:27:33.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Data\\SupplierRepository.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\SupplierRepository.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Data\\SupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T22:27:18.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateSupplierResponse.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateSupplierResponse.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\CreateSupplierResponse.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateSupplierResponse.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\CreateSupplierResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T22:26:40.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateSupplierRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateSupplierRequest.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Contracts\\CreateSupplierRequest.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Contracts\\CreateSupplierRequest.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Contracts\\CreateSupplierRequest.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T22:07:56.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Controllers\\SuppliersController.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T21:18:12.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Errors\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Errors\\GlobalExceptionHandler.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Errors\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Errors\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T21:10:41.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Data\\UserRepository.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Data\\UserRepository.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Data\\UserRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAawA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T09:11:04.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DevelopmentUserSeeder.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\DevelopmentUserSeeder.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Authentication\\DevelopmentUserSeeder.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Authentication\\DevelopmentUserSeeder.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Authentication\\DevelopmentUserSeeder.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAIAwwFsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:59:01.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ActivosTi.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Documents\\proyectosNET\\PruebaDesarrolloQuom\\ActivosTi\\ActivosTi.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ActivosTi.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T08:37:53.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
